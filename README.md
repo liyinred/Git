@@ -1,18 +1,36 @@
-## GitHub共同编辑文档说明
+# GitHub共同编辑文档操作指南
 
-1. 加入仓库后先创建分支，分支名可以用自己的名字，如图例所示（这里用的名字是Wenhao）  
-   在 GitHub 仓库页面，点击右上角的 "Branch: main" 按钮，输入分支名称（例如：Wenhao），然后点击 "Create branch".
+本指南旨在介绍如何利用GitHub进行共同编辑文档的流程，确保团队成员能够有效地协作和管理文档版本。
 
-2. 创建好后进入你要修改的文档，如图例所示（这里进入的是template.tex）  
-   在仓库中找到需要编辑的文件，点击文件名进入编辑界面.
+## 1. 创建个人分支
 
-3. 修改完后 commit 确认（如果是上传文件到分支要保证文件名正确）  
-   在编辑界面，滚动到页面底部的 "Commit changes" 部分。填写修改的摘要和描述，然后点击 "Commit changes".
+在加入仓库后，为避免直接修改主分支（main），请按以下步骤创建个人分支：
+- 进入GitHub仓库页面。
+- 点击右上角的 "Branch: main" 按钮，输入个人分支名称（例如使用自己的名字），然后点击 "Create branch"。
 
-4. commit changes 后进入 Pull requests 提交请求，然后在 compare 中选中自己的分支，title 可以写名字 + update 了哪个文件，description 中描述对文件进行了哪些修改  
-   在仓库页面，点击 "Pull requests"，然后点击 "New pull request". 在 "base" 中选择 "main" 分支，在 "compare" 中选择自己的分支（例如：Wenhao）。填写标题和描述，描述修改的详细内容.
+## 2. 定位并修改文档
 
-5. 提交完后等待 leader 进行审核，同意后被修改后的文件会显示在 main 分支中  
-   等待 leader 审核 Pull Request。一旦审核通过，修改将被合并到主分支（main）中.
+在个人分支创建完成后，按照以下步骤定位并修改需要的文档：
+- 在仓库中找到目标文档，例如 "template.tex"。
+- 点击文档名称进入编辑界面，进行必要的修改。
 
-以上是 GitHub 共同编辑文档的基本流程，希望对您有帮助！
+## 3. 提交修改
+
+完成文档修改后，务必进行提交以保存更改：
+- 在编辑界面底部的 "Commit changes" 部分，填写修改摘要和详细描述。
+- 点击 "Commit changes" 完成提交。
+
+## 4. 提交Pull Request
+
+为将个人分支的修改合并到主分支（main），请按以下步骤提交Pull Request（PR）：
+- 返回仓库页面，点击 "Pull requests"。
+- 点击 "New pull request" 创建新的PR。
+- 在比较页面中，将 "base" 设置为主分支（main），将 "compare" 设置为个人分支。
+- 填写PR标题，例如 "姓名 更新了 template.tex"。
+- 在描述中清晰描述修改了哪些内容和原因。
+
+## 5. 审核与合并
+
+提交PR后，等待团队leader进行审核并合并操作：
+- Leader会对PR进行审查，并提出必要的修改或反馈。
+- 一旦审查通过，leader将PR合并到主分支（main）中，修改即可在主分支上查看。
