@@ -1,4 +1,4 @@
-# 多人协作文档操作指南
+# 多人协作文档操作指南  [英文](https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md)
 
 ## Git 技术概览
 
