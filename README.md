@@ -64,7 +64,7 @@ Git 是一个分布式版本控制系统，设计用来以高速和高效率处�
 - 提交更新，找到暂存区的文件，将快照永久性存储到 Git 目录。
 ![alt text](https://img-blog.csdn.net/20150919155324383)
 
-我们的锯台工作流程大概如下:
+我们的工作流程大致如下:
 - 需要注意的的是我们并不需要Fork,只需要push到自己的分支,最后向主分支 pull request 即可.
 ![alt text](https://github.com/liyinred/Test1/blob/main/pic/a7360af316c8947b612be2e2128b128.jpg?raw=true)
 
