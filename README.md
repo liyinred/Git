@@ -1,10 +1,11 @@
 # 多人协作文档操作指南  
 
-<div style="text-align: center;">
+<center>
 
 ## [Eng Version](https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md)
 
-</div>
+</center>
+
 
 
 ## Git 技术概览
