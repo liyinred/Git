@@ -1,4 +1,6 @@
-# A how-to guide for multi-person collaborative document
+<div align="center">
+   <h1>A how-to guide for multi-person collaborative document</h1>
+</div>
 
 ## Git Technology Overview
 
