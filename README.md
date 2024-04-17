@@ -1,11 +1,10 @@
 # 多人协作文档操作指南  
 
-<center>
-
-## [Eng Version](https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md)
-
-</center>
-
+<p align='center'>
+  <a href="https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en_new.pdf">
+    <img src="https://img.shields.io/github/license/Zzaphkiel/Seraphine?style=flat&label=License">
+  </a>
+<p/>
 
 
 ## Git 技术概览
