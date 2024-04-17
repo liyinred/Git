@@ -1,15 +1,12 @@
-<p align='center'>
-  <h1>多人协作文档操作指南</h1>
-<p/>
+# 多人协作文档操作指南  
+
 <p align='center'>
   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md" "target="_blank">访问英文文档</a>
 <p/>
 
-
 ## Git 技术概览
 
 Git 是一个分布式版本控制系统，设计用来以高速和高效率处理任何规模的项目。它允许多个开发者在同一个代码库上协作，跟踪更改并促进合作。
-
 
 ### 核心概念
 
