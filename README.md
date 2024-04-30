@@ -172,3 +172,25 @@ git rebase --continue
 git push origin add_lwh --force
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412135404.png?raw=true)
+
+
+```bash
+# 配置Git用户信息
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱地址"
+
+# 初始化本地Git仓库
+git init
+
+# 添加当前目录下所有文件到Git暂存区
+git add .
+
+# 提交更改到本地仓库
+git commit -m "Initial commit"
+
+# 连接到GitHub仓库，这里需要替换成你自己的GitHub仓库URL
+git remote add origin https://github.com/你的用户名/你的仓库名.git
+
+# 推送到GitHub，默认推送到master分支，如果是main分支则需修改为main
+git push -u origin main
+```
