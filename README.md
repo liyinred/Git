@@ -210,4 +210,4 @@ git config --global https.proxy host:port
 git push --force origin main
 
 ```
-
+[解决 Git Push 出现 “error: failed to push some refs to“错误](https://blog.csdn.net/Tester_muller/article/details/132837267)
