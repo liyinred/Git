@@ -194,3 +194,20 @@ git remote add origin https://github.com/你的用户名/你的仓库名.git
 # 推送到GitHub，默认推送到master分支，如果是main分支则需修改为main
 git push -u origin main
 ```
+
+![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/8f967baf-bc7b-4b78-978d-0c820e552fdf)
+```bash
+# 以下 host:port 指定是你当前代理使用的主机及端口号。例如：localhost:7890、127.0.0.1:7890 等
+
+# 配置socks5代理
+git config --global http.proxy socks5 host:port
+git config --global https.proxy socks5 host:port
+
+# 配置http代理
+git config --global http.proxy host:port
+git config --global https.proxy host:port
+
+git push --force origin main
+
+```
+
