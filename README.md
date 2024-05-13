@@ -3,6 +3,29 @@
    <a href="https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md" "target="_blank">English Version</a>
 </div>
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+  - [Git 技术概览](#git-技术概览)
+    - [核心概念](#核心概念)
+    - [核心组件](#核心组件)
+    - [工作流程](#工作流程)
+  - [准备前提](#准备前提)
+- [以下是一个进行多人协作文档的具体例子](#以下是一个进行多人协作文档的具体例子)
+  - [1. Leader邀请Collaborator加入该项目和Collaborator接受邀请](#1-leader邀请collaborator加入该项目和collaborator接受邀请)
+  - [2. 克隆仓库](#2-克隆仓库)
+  - [3. 创建分支和编辑文档](#3-创建分支和编辑文档)
+  - [4. 推送更改 (Push)](#4-推送更改-push)
+  - [5. 发起和合并分支 Pull Request](#5-发起和合并分支-pull-request)
+  - [6. 拉取最新的主分支更改](#6-拉取最新的主分支更改)
+  - [7. 变基操作 (Rebase)](#7-变基操作-rebase)
+  - [8.查看具体修改和评论](#8查看具体修改和评论)
+  - [9.本地文件Push不了到Github的问题解决方法](#9本地文件push不了到github的问题解决方法)
+
+<!-- /code_chunk_output -->
+
+
 ## Git 技术概览
 
 Git 是一个分布式版本控制系统，设计用来以高速和高效率处理任何规模的项目。它允许多个开发者在同一个代码库上协作，跟踪更改并促进合作。
