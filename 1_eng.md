@@ -1,68 +1,45 @@
 <div align="center">
    <h1>Multi-person collaboration GitHub document operation guide</h1>
-   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md" "target="_blank">English Version</a>
 </div>
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-<!-- code_chunk_output -->
-
-  - [Git 技术概览](#git-技术概览)
-    - [核心概念](#核心概念)
-    - [核心组件](#核心组件)
-    - [工作流程](#工作流程)
-  - [准备前提](#准备前提)
-- [The following is a specific example of a multi-person collaboration document](#以下是一个进行多人协作文档的具体例子)
-  - [1. Leader invites Collaborator to join the project and Collaborator accepts the invitation](#1-leader邀请collaborator加入该项目和collaborator接受邀请)
-  - [2. 克隆仓库](#2-克隆仓库)
-  - [3. Create branches and edit documents](#3-创建分支和编辑文档)
-  - [4. Push changes](#4-推送更改-push)
-  - [5. Initiate and merge branches Pull Request](#5-发起和合并分支-pull-request)
-  - [6. Pull the latest master branch changes](#6-拉取最新的主分支更改)
-  - [7. Rebase operation (Rebase)](#7-变基操作-rebase)
-  - [8. View specific modifications and comments](#8查看具体修改和评论)
-  - [9. Solution to the problem that local files cannot be pushed to Github](#9本地文件push不了到github的问题解决方法)
-
-<!-- /code_chunk_output -->
-
-
-## Git technology overview
+## Git Technology Overview
 
 Git is a distributed version control system designed to handle projects of any size with speed and efficiency. It allows multiple developers to collaborate on the same code base, tracking changes and promoting collaboration.
 
-### Core idea
+### Core Idea
 
-- **Distributed version control**: Unlike centralized version control systems, each directory of Git is a complete warehouse on each computer, with complete history records and comprehensive version tracking capabilities, and does not rely on the network access or central server.
+- **Distributed Version Control**: Unlike centralized version control systems, each directory of Git is a complete warehouse on each computer, with complete history records and comprehensive version tracking capabilities, and does not rely on the network access or central server.
 
 - **Snapshot**: Git captures project status through snapshots. Every time you commit, Git takes a picture of what all the files look like at that time, and stores a reference to that snapshot.
 
-- **branch**: A Git branch is actually a pointer to a snapshot of changes. When you branch a project, you are creating an environment where you can try out new ideas without affecting the main project.
+- **Branch**: A Git branch is actually a pointer to a snapshot of changes. When you branch a project, you are creating an environment where you can try out new ideas without affecting the main project.
 
-### core components
+### Core Components
 
-- **1. Repository**Git is a distributed version control system whose main job is to manage code warehouses. A repository contains the complete history of the project and a snapshot of all files.
+- **1. Repository** Git is a distributed version control system whose main job is to manage code warehouses. A repository contains the complete history of the project and a snapshot of all files.
 
-- **2. Working Directory**The workspace is the directory you are currently working in and contains the actual contents of the project files.
+- **2. Working Directory** The workspace is the directory you are currently working in and contains the actual contents of the project files.
 
-- **3. Staging Area**The staging area is a place where changes are temporarily stored in preparation for submission to the repository.
+- **3. Staging Area** The staging area is a place where changes are temporarily stored in preparation for submission to the repository.
 
-- **4. Repository**The repository is the most important part of Git, including commit records, branches, tags and other information.
+- **4. Repository** The repository is the most important part of Git, including commit records, branches, tags and other information.
 
-- **5. Commit**Commit is the most basic operation in Git, which is used to save the current status of the working directory to the repository.
+- **5. Commit** Commit is the most basic operation in Git, which is used to save the current status of the working directory to the repository.
 
-- **6. Branch**A branch is an independent line used to develop new features. It allows you to modify and experiment with the code without affecting the main line.
+- **6. Branch** A branch is an independent line used to develop new features. It allows you to modify and experiment with the code without affecting the main line.
 
-- **7. Tag**The tag is a name for a specific version of the code, usually used for releases or important milestones.
+- **7. Tag** The tag is a name for a specific version of the code, usually used for releases or important milestones.
 
-- **8. Remote Repository**Remote warehouse is a Git warehouse hosted on the network, such as GitHub, GitLab, etc., used for team collaboration and code sharing.
+- **8. Remote Repository** Remote warehouse is a Git warehouse hosted on the network, such as GitHub, GitLab, etc., used for team collaboration and code sharing.
 
-- **9. Clone**The clone operation is used to copy the project from the remote warehouse to the local one, creating an identical copy of the remote warehouse.
+- **9. Clone** The clone operation is used to copy the project from the remote warehouse to the local one, creating an identical copy of the remote warehouse.
 
-- **10. Pull and Push**The pull operation is to obtain the latest content from the remote warehouse to the local one, and the push operation is to synchronize the local submissions to the remote warehouse.
+- **10. Pull and Push** The pull operation is to obtain the latest content from the remote warehouse to the local one, and the push operation is to synchronize the local submissions to the remote warehouse.
 
-- **11. Merge and Rebase**Merge is to merge the modifications of different branches together, while rebasing is to move the commits of the current branch to another branch and re-apply them.
+- **11. Merge and Rebase** Merge is to merge the modifications of different branches together, while rebasing is to move the commits of the current branch to another branch and re-apply them.
 
-- **12. Conflict Resolution**When conflicts occur during the merge operation, you need to manually resolve the conflicts and then submit the resolved code.
+- **12. Conflict Resolution** When conflicts occur during the merge operation, you need to manually resolve the conflicts and then submit the resolved code.
 
 ### work process
 Git has three states, and your file may be in one of them: committed, modified, and staged.
@@ -94,7 +71,7 @@ Improved image![This is an image](https://github.com/liyinred/Test1/blob/main/pi
 - Click the "notifications" button in the upper right corner, click the notification and accept the invitation. At this time, Collaborator appears in Leader's "Collaborators".
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412091411.png?raw=true)![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412091428.png?raw=true)![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412091442.png?raw=true)![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412090204.png?raw=true)
 
-## 2. Clone repository
+## 2. Clone Repository
 
 Assume that B and C are other members of the project team. They first need to clone the repository to their local machine. The clone link can be obtained through the repository page on GitHub. ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412103938.png?raw=true)After creating your own project folder, open Git Bash and clone the repository to your local computer.
 
@@ -107,7 +84,7 @@ cd Test1  #  切换到本地仓库的文件夹
 
 After that, you can see the files of the main branch of the warehouse in the local warehouse ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412140137.png?raw=true)
 
-## 3. Create branches and edit documentation
+## 3. Create Branches and Edit Documentation
 
 Suppose B decides to add a new project introduction document, he creates a new branch and starts editing. After writing the file locally and placing it in the local warehouse folder, perform the following operations in GitBash:
 
@@ -126,7 +103,7 @@ git add README.md
 git commit -m "Update README file"
 ```
 
-## 4. Push changes (Push)
+## 4. Push Changes (Push)
 B and C respectively push their changed branches to GitHub
 
 ```bash
@@ -139,7 +116,7 @@ git push origin update-readme
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412112644.png?raw=true)
 
 Afterwards, you can see the branch you created in the Github project repository![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412112800.png?raw=true)
-## 5. Initiate and merge branches Pull Request
+## 5. Initiate and Merge Branches Pull Request
 
 B and C respectively initiate Pull Requests for their branches on GitHub. A, as the project maintainer, reviews these changes and decides to merge them into the master branch.
 
@@ -151,7 +128,7 @@ Fill in the title (standard format) and description (standard format) here, and 
 
 You can see this Pull request on the Leader side, and you can decide whether to merge it into the main branch![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412113444.png?raw=true)
 
-## 6. Pull the latest master branch changes
+## 6. Pull the Latest Master Branch Changes
 After merging the changes of B and C, other members need to update their local master branches, also using Git Bash in the local warehouse directory:
 
 ```bash
@@ -159,7 +136,7 @@ git checkout main  #  先切换成分支
 git pull origin main  #  获取更新
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412113903.png?raw=true)
-## 7. Rebase operation (Rebase)
+## 7. Rebase Operation (Rebase)
 
 Suppose A has made some commits on the main branch and updated it, and B wants to continue working on the basis of these changes. He can use the rebase operation to update his branch.
 
@@ -181,7 +158,7 @@ git push origin add_lwh --force
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412135404.png?raw=true)
 
-## 8.View specific changes and comments
+## 8.View Specific Changes and Comments
 
 Assume that in the process of writing the manual, A, B, and C each submitted their own modifications at different times and left relevant comments.
 
