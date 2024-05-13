@@ -56,6 +56,7 @@ The basic Git workflow is as follows:
 
 Our workflow is roughly as follows:
 - It should be noted that we do not need Fork, we only need to push to our own branch, and finally pull request to the main branch, which is more centralized and convenient.
+
 ![alt text](https://github.com/liyinred/Test1/blob/main/pic/a7360af316c8947b612be2e2128b128.jpg?raw=true)
 
 Improved image![This is an image](https://github.com/liyinred/Test1/blob/main/pic/aca87e17097ca16c38c4a8150775976.jpg?raw=true)
@@ -103,7 +104,7 @@ git add README.md
 git commit -m "Update README file"
 ```
 
-## 4. Push Changes (Push)
+## 4. Push Changes
 B and C respectively push their changed branches to GitHub
 
 ```bash
@@ -136,7 +137,7 @@ git checkout main  #  先切换成分支
 git pull origin main  #  获取更新
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412113903.png?raw=true)
-## 7. Rebase Operation (Rebase)
+## 7. Rebase Operation
 
 Suppose A has made some commits on the main branch and updated it, and B wants to continue working on the basis of these changes. He can use the rebase operation to update his branch.
 
