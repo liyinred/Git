@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>Multi-person collaboration document operation guide</h1>
+   <h1>Multi-person collaboration GitHub document operation guide</h1>
 </div>
 
 
@@ -41,7 +41,7 @@ Git is a distributed version control system designed to handle projects of any s
 
 - **12. Conflict Resolution** When conflicts occur during the merge operation, you need to manually resolve the conflicts and then submit the resolved code.
 
-### work process
+### Workflow
 Git has three states, and your file may be in one of them: committed, modified, and staged.
 - Modified means that the file has been modified but has not been saved to the database.
 - Staged means that the current version of a modified file has been marked to be included in the next committed snapshot.
