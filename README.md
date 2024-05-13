@@ -74,7 +74,7 @@ Git 是一个分布式版本控制系统，设计用来以高速和高效率处�
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/aca87e17097ca16c38c4a8150775976.jpg?raw=true)
 
 ## 准备前提
-- **安装好Git** [安装包链接,按照默认选项安装即可](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe) 
+- **安装好Git** [官网](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe)  **+** [详细教程](https://blog.jiumoz.com/archives/git-an-zhuang-xiang-jie)
 - **创建好Github账户** [注册链接](https://github.com/login?add_account=1&return_to=https%3A%2F%2Fgithub.com%2F)
 
 # 以下是一个进行多人协作文档的具体例子
