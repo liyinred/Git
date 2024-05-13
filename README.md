@@ -175,10 +175,12 @@ git push origin add_lwh --force
 
 ## 8.
 
-假设A、B、C 三人在完成手册的编写过程中，每个人都在不同的时间提交了自己的修改，并留下了相关的注释。
+假设A、B、C 三人在完成manual的编写过程中，每个人都在不同的时间提交了自己的修改，并留下了相关的注释。
 ```bash
 git log  #  查看所有提交日志和comment：
 ```
+![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/c082aeed-0586-461e-a33d-749d66211a35)
+![Uploading image.png…]()
 
 ## 9.Push不了到Github的问题解决方法
 ```bash
