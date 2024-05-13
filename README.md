@@ -219,6 +219,7 @@ git push -u origin main
 ```
 
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/8f967baf-bc7b-4b78-978d-0c820e552fdf)
+
 [解决 Git Push 出现 “error: failed to push some refs to“错误](https://blog.csdn.net/Tester_muller/article/details/132837267)
 ```bash
 # 以下 host:port 指定是你当前代理使用的主机及端口号。例如：localhost:7890、127.0.0.1:7890 等
