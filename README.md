@@ -182,7 +182,6 @@ git log  #  查看所有提交日志和comment：
 git log --follow -p "C:\Users\liwh\Desktop\晨辰医药\5 week\data-structure\1.md"  #  查看具体路径下的文件所有更改日志以及详细的修改内容
 ```
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/4e2e4b32-d9d3-40f5-a8ff-312827f95895)
-
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/c082aeed-0586-461e-a33d-749d66211a35)
 
 在手册编写的过程中，团队成员可能需要比较两个不同版本之间的差异，以便了解每个人的修改对最终文档的影响。例如，假设团队成员想要比较 A 提交的初始草稿和 B 提交的更新版本之间的差异。这时，他们可以使用命令 **git diff initial-commit-hash updated-commit-hash** 来查看这两个版本之间文件的具体差异，从而更好地理解每个人的修改对文档的影响。
@@ -197,11 +196,7 @@ git diff 5fa40125be76eb0c4be7d27b2854c18e04bd5e35^ 5fa40125be76eb0c4be7d27b2854c
 ```
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/21fcfb8a-33d4-422d-b611-88f18091feaa)
 
-
-
-
-
-## 9.Push不了到Github的问题解决方法
+## 9.本地文件Push不了到Github的问题解决方法
 ```bash
 # 配置Git用户信息
 git config --global user.name "你的用户名"
@@ -239,4 +234,3 @@ git config --global https.proxy host:port
 git push --force origin main
 
 ```
-
