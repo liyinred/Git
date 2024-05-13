@@ -173,7 +173,7 @@ git push origin add_lwh --force
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412135404.png?raw=true)
 
-
+## 8.Push中出现的问题解决方法
 ```bash
 # 配置Git用户信息
 git config --global user.name "你的用户名"
