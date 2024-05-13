@@ -226,8 +226,8 @@ git push -u origin main
 # 以下 host:port 指定是你当前代理使用的主机及端口号。例如：localhost:7890、127.0.0.1:7890 等
 
 # 配置socks5代理
-git config --global http.proxy socks5 host:port
-git config --global https.proxy socks5 host:port
+# git config --global http.proxy socks5 host:port
+# git config --global https.proxy socks5 host:port
 
 # 配置http代理
 git config --global http.proxy host:port
