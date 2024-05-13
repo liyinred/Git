@@ -173,7 +173,14 @@ git push origin add_lwh --force
 ```
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412135404.png?raw=true)
 
-## 8.Push中出现的问题解决方法
+## 8.
+
+假设A、B、C 三人在完成手册的编写过程中，每个人都在不同的时间提交了自己的修改，并留下了相关的注释。
+```bash
+git log  #  查看所有提交日志和comment：
+```
+
+## 9.Push不了到Github的问题解决方法
 ```bash
 # 配置Git用户信息
 git config --global user.name "你的用户名"
