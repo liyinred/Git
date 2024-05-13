@@ -179,8 +179,9 @@ git push origin add_lwh --force
 ```bash
 git log  #  查看所有提交日志和comment：
 ```
+![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/4e2e4b32-d9d3-40f5-a8ff-312827f95895)
+
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/c082aeed-0586-461e-a33d-749d66211a35)
-![Uploading image.png…]()
 
 ## 9.Push不了到Github的问题解决方法
 ```bash
