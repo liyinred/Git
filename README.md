@@ -188,14 +188,17 @@ git log --follow -p "C:\Users\liwh\Desktop\晨辰医药\5 week\data-structure\1.
 在手册编写的过程中，团队成员可能需要比较两个不同版本之间的差异，以便了解每个人的修改对最终文档的影响。例如，假设团队成员想要比较 A 提交的初始草稿和 B 提交的更新版本之间的差异。这时，他们可以使用命令 **git diff initial-commit-hash updated-commit-hash** 来查看这两个版本之间文件的具体差异，从而更好地理解每个人的修改对文档的影响。
 ```bash
 git diff ecc734c6a48f74675872c6ec37e5848657b972d0 5fa40125be76eb0c4be7d27b2854c18e04bd5e35  #  查看两个不同提交中的所有文件差异
-
-git diff 5fa40125be76eb0c4be7d27b2854c18e04bd5e35^ 5fa40125be76eb0c4be7d27b2854c18e04bd5e35  #  查看查看某次提交和它上次提交(^)的详细文件差异
 ````
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/78f71f30-a82c-43d7-bccb-8fb4d3af4c87)
+
+在手册编写的过程中，团队成员可能也需要查看某次提交与其上一次提交之间的具体差异。例如，假设 C 想要查看自己完成的最后修订与上一次提交之间的具体修改内容。这时，他可以使用命令 git diff last-commit-hash^ last-commit-hash 来查看这两次提交之间文件的详细差异，以便更好地了解自己的修改对文档的影响。
+```bash
+git diff 5fa40125be76eb0c4be7d27b2854c18e04bd5e35^ 5fa40125be76eb0c4be7d27b2854c18e04bd5e35  #  查看查看某次提交和它上次提交(^)的详细文件差异
+```
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/21fcfb8a-33d4-422d-b611-88f18091feaa)
 
 
-在手册编写的过程中，团队成员可能也需要查看某次提交与其上一次提交之间的具体差异。例如，假设 C 想要查看自己完成的最后修订与上一次提交之间的具体修改内容。这时，他可以使用命令 git diff last-commit-hash^ last-commit-hash 来查看这两次提交之间文件的详细差异，以便更好地了解自己的修改对文档的影响。
+
 
 
 ## 9.Push不了到Github的问题解决方法
