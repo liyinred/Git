@@ -1,7 +1,8 @@
 <div align="center">
    <h1>多人协作GitHub文档操作指南</h1>
-   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/GT4T_%E5%B7%B2%E7%BF%BB%E8%AF%91_English%20(%E8%8B%B1%E8%AF%AD)/Git_en.md" "target="_blank">English Version</a>
+   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/1_eng.md" "target="_blank">English Version</a>
 </div>
+
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
