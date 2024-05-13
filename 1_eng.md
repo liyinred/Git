@@ -59,7 +59,8 @@ Our workflow is roughly as follows:
 
 ![alt text](https://github.com/liyinred/Test1/blob/main/pic/a7360af316c8947b612be2e2128b128.jpg?raw=true)
 
-Improved image![This is an image](https://github.com/liyinred/Test1/blob/main/pic/aca87e17097ca16c38c4a8150775976.jpg?raw=true)
+Improved image is as follows:
+![This is an image](https://github.com/liyinred/Test1/blob/main/pic/aca87e17097ca16c38c4a8150775976.jpg?raw=true)
 
 ## Preparation
 - **Install Git** [官网](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe) **+** [详细教程](https://blog.jiumoz.com/archives/git-an-zhuang-xiang-jie)
