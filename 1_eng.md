@@ -178,7 +178,7 @@ git diff ecc734c6a48f74675872c6ec37e5848657b972d0 5fa40125be76eb0c4be7d27b2854c1
 ````
 ![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/78f71f30-a82c-43d7-bccb-8fb4d3af4c87)
 
-在手册编写的过程中，团队成员可能也需要查看某次提交与其上一次提交之间的具体差异。例如，假设 C 想要查看自己完成的最后修订与上一次提交之间的具体修改内容。这时，他可以使用命令 **git diff last-commit-hash^ last-commit-hash** 来查看这两次提交之间文件的详细差异，以便更好地了解自己的修改对文档的影响。
+During the course of manual preparation, team members may also need to see specific differences between a particular commit and its predecessor. For example, let's say that C wants to see exactly what was changed between the last revision he completed and the last commit. In this case, he can use the command **git diff last-commit-hash^ last-commit-hash** to see the detailed differences in the files between the two commits to better understand the impact of his changes on the documentation.
 ```bash
 git diff 5fa40125be76eb0c4be7d27b2854c18e04bd5e35^ 5fa40125be76eb0c4be7d27b2854c18e04bd5e35  #  查看查看某次提交和它上次提交(^)的详细文件差异
 ```
