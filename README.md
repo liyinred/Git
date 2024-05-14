@@ -1,7 +1,6 @@
 <div align="center">
    <h1>多人协作文档操作 Manual</h1>
-   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/1_eng.md" target="_blank" style="font-size: 100px;">English Version</a>
-   <h1> </h1>
+   <a href="https://github.com/liyinred/Git_Wenhao/blob/main/1_eng.md" target="_blank" style="font-size: 30px;">English Version</a>
 </div>
 
 
