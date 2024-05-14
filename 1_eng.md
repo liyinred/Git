@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>Multi-person collaboration GitHub document operation guide</h1>
+   <h1>Multi-person Collaboration Document Operation Manual</h1>
 </div>
 
 
