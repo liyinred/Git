@@ -260,3 +260,29 @@ git config --global https.proxy host:port
 git push --force origin main
 
 ```
+
+步骤一：项目初始化
+- A本地创建Django框架：A在本地创建好Django框架，并确保项目结构合理。
+- 推送到GitHub主分支：A将项目推送到GitHub的main分支，确保包括requirements.txt文件。
+- GitHub中更新README：A在README.md文件中详细说明项目的结构和工作流程，以便团队成员了解项目的基本信息。
+  
+步骤二：任务分配
+- 功能需求描述：当A需要B实现一个新功能时，A通过邮件详细描述需要实现的功能，包括功能的目的、预期的实现方式和具体的技术要求。
+
+步骤三：分支操作
+- 拉取主分支：B接到任务后，从GitHub上拉取main分支到本地。
+- 创建新分支：B在本地创建一个新的分支，用于开发新功能。例如，分支命名可以为feature/功能描述。
+
+步骤四：开发与提交
+- 开发新功能：B在本地分支中进行代码修改和功能实现。
+- 注释代码：B在修改和新增的代码部分加上详细的注释，确保代码易于理解和维护。
+
+步骤五：代码合并与审核
+- 创建Pull Request：B完成功能开发后，将本地分支推送到GitHub，并创建一个Pull Request，详细说明修改的内容和功能实现情况。
+- 代码审核与测试：A在收到Pull Request后，进行代码审核和测试。如果功能符合预期，A同意并合并Pull Request；如果不符合预期，A拒绝Pull Request。
+
+步骤六：反馈与修改
+- 反馈问题：A在拒绝Pull Request时，通过邮件详细说明未能通过审核的具体问题，并提供改进建议。
+- 重复开发与提交：B根据A的反馈，重新修改代码，直至功能符合预期。
+  
+![image](https://github.com/liyinred/Git_Wenhao/assets/83255231/e2f9bb67-ce18-41b3-b87c-6817f22e7c86)
