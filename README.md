@@ -262,7 +262,7 @@ git push --force origin main
 ```
 
 步骤一：项目初始化
-- A本地创建Django框架：A在本地创建好Django框架，并确保项目结构合理。
+- A本地创建Django框架：A(项目主导者)在本地创建好Django框架，并确保项目结构合理。
 - 推送到GitHub主分支：A将项目推送到GitHub的main分支，确保包括requirements.txt文件。
 - GitHub中更新README：A在README.md文件中详细说明项目的结构和工作流程，以便团队成员了解项目的基本信息。
   
