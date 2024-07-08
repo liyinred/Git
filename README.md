@@ -181,7 +181,8 @@ git pull origin main  #  获取更新
 ![This is an image](https://github.com/liyinred/Test1/blob/main/pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240412113903.png?raw=true)
 ## 7. 变基操作 (Rebase)
 
-![image](https://github.com/liyinred/Git/assets/83255231/da34124e-0783-4f10-aca1-0b26d834621c)
+![image](https://github.com/liyinred/Git/assets/83255231/d7898ab3-471f-4933-b859-4f957b909585)
+
 假设A在主分支上做了一些提交就行了更新，而B希望在这些更改的基础上继续工作，他可以使用变基操作来更新他的分支(先要pull最新的main分支)。
 ```bash
 git checkout add_lwh
