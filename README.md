@@ -76,6 +76,7 @@ Git 是一个分布式版本控制系统，设计用来以高速和高效率处�
 
 - **12. 冲突解决（Conflict Resolution）**
   当合并操作中出现冲突时，需要手动解决冲突，然后提交解决后的代码。
+![image](https://github.com/liyinred/Git/assets/83255231/3c261241-a7a3-4d90-ae38-ce58b7d3e801)
 
 ### 工作流程
  Git 有三种状态，你的文件可能处于其中之一： 已提交（committed）、已修改（modified） 和 已暂存（staged）。
